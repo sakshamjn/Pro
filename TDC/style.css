@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+#sec1{
+    background-image: url('food1.jpg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: beige;
+    height: 100vh;
+}
+#sec2{
+    background-image: url('menu.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#menuHeader{
+    text-align: center;
+    font-family: 'Pacifico';
+    font-size: 45px;
+}
+#menuTable{
+    font-family: 'Pacifico';
+    font-size: 30px;
+    text-align: center;
+}
+a.links:hover, a.links:active {
+    font-size: 150%;
+}
+a:link{
+    color: #FF6500;
+}
+a:visited { 
+    color: green;
+}
+#text{
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 45px;
+    transform: translate(-50%,50%);
+    top: 50%;
+    left: 50%;
+    color: #b2eab3;
+    font-family: 'Lobster Two',cursive;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    padding: 10px;
+    top: 0;
+    left: 0;  
+}
+ul{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+} 
+li{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 10px;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+a{
+    display: block;
+    color: #FF6500;
+    text-decoration: none;
+    font-size :1.2em;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    word-spacing: 39px;
+}
+a:visited {
+    color: #FF6500;
+}
+a:hover{
+      background-color: #333333;
+      color: aliceblue;
+      line-height: .9em;
+      letter-spacing: normal;
+}
+.links{
+    color:white;
+    padding: 10%; 
+    text-align: center;  
+    color: #FF6500;
+    font-family: 'Lobster Two',cursive;
+}
